@@ -6,9 +6,10 @@
     line-height: normal;
     margin: 0;
     padding: 0;
-    text-align: left;
+    text-align: right;
     vertical-align: baseline;
     -webkit-tap-highlight-color: transparent;
+    padding: 10px;
 }
 [data-rk] .iekbcc1 {
     list-style: none;
@@ -82,9 +83,6 @@
 }
 [data-rk] .ju367v8 {
     display: block;
-}
-[data-rk] .ju367va {
-    display: flex;
 }
 [data-rk] .ju367vc {
     display: inline;
