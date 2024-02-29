@@ -43,7 +43,7 @@ export const CustomConnect = () => {
                                 );
                             }
                             return (
-                                <div style={{ display: "flex", gap: 12 }}>
+                                <div style={{ display: "flex", gap: 12, alignItems: "center" }}>
                                     <button
                                         onClick={openChainModal}
                                         style={{ display: "flex", alignItems: "center" }}
@@ -86,6 +86,6 @@ export const CustomConnect = () => {
     );
 };
 
-export const BasciConnect = () => {
+export const BasicConnect = () => {
     return <ConnectButton></ConnectButton>;
 };
