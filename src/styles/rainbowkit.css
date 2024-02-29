@@ -234,6 +234,7 @@
 }
 [data-rk] .ju367v1n {
     gap: 12px;
+    justify-content: center;
 }
 [data-rk] .ju367v1o {
     gap: 14px;
@@ -990,6 +991,7 @@
     -moz-user-select: none;
     -ms-user-select: none;
     user-select: none;
+    display: none;
 }
 [data-rk] .ju367v8l {
     width: 1px;

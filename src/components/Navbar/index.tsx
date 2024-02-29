@@ -10,7 +10,7 @@ const Navbar = () => {
     <nav className="bg-gray-800 text-white">
       <div className="max-w-6xl mx-auto px-4">
         <div className="flex justify-between">
-          <div className="flex space-x-4 w-full ">
+          <div className="flex space-x-4 w-full justify-center">
             <div>
               <Link href="/">
                 <a className="flex items-center py-5 px-2 text-gray-700 hover:text-gray-900">
@@ -23,13 +23,13 @@ const Navbar = () => {
             <div className="hidden md:flex items-center space-x-1 w-full justify-between">
               <div>
                 <Link href="/about">
-                  <a className="py-5 px-3 hover:underline">About</a>
+                  <a className="py-5 px-3 hover:underline">Link 1</a>
                 </Link>
                 <Link href="/services">
-                  <a className="py-5 px-3 hover:underline">Services</a>
+                  <a className="py-5 px-3 hover:underline">Link 2</a>
                 </Link>
                 <Link href="/contact">
-                  <a className="py-5 px-3 hover:underline">Contact</a>
+                  <a className="py-5 px-3 hover:underline">Link 3</a>
                 </Link>
               </div>
               <div>
@@ -54,15 +54,15 @@ const Navbar = () => {
       </div>
 
       {/* Mobile Menu */}
-      <div className={`md:hidden ${isOpen ? 'block' : 'hidden'}`}>
+      <div className={`md:hidden ${isOpen ? 'block pb-10' : 'hidden'}`} style={{ textAlign:"center" }}>
         <Link href="/about">
-          <a className="block py-2 px-4 text-sm hover:bg-gray-700">About</a>
+          <a className="block py-2 px-4 text-sm hover:bg-gray-700 mb-2">Link 1</a>
         </Link>
         <Link href="/services">
-          <a className="block py-2 px-4 text-sm hover:bg-gray-700">Services</a>
+          <a className="block py-2 px-4 text-sm hover:bg-gray-700 mb-2">Link 2</a>
         </Link>
         <Link href="/contact">
-          <a className="block py-2 px-4 text-sm hover:bg-gray-700">Contact</a>
+          <a className="block py-2 px-4 text-sm hover:bg-gray-700 mb-5">Link 3</a>
         </Link>
         <BasicConnect />
       </div>
